@@ -27,7 +27,7 @@
     display: block;
     padding: 2px;
 
-    &:after, &:before {
+    /*&:after, &:before {
       content: attr(data-text);
       position: absolute;
       top: 0;
@@ -50,7 +50,7 @@
       left: -3px;
       text-shadow: 2px 0 blue;
       animation: noise-anim-2 3s infinite linear alternate-reverse;
-    }
+    }*/
   }
 }
 

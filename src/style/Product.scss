@@ -73,7 +73,7 @@
   position: relative;
   font-weight: bold;
 
-  &:hover {
+  /*&:hover {
     text-decoration: underline;
 
     &:before {
@@ -92,7 +92,7 @@
       font-size: 2em;
       animation: blink 6s steps(4, end) infinite alternate-reverse;
     }
-  }
+  }*/
 }
 
 @keyframes cross-1 {
@@ -117,7 +117,7 @@
   }
 }
 
-@keyframes blink {
+/*@keyframes blink {
   $steps: 20;
 
   @for $i from 0 through $steps {
@@ -129,4 +129,4 @@
       }
     }
   }
-}
+}*/

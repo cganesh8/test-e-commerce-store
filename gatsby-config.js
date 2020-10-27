@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'My Test E-commerce Store',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -14,8 +14,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
-        autopop: true
+        apiKey: 'OTQ2ZTE1YmItZTc0Ny00YzdlLThhNDgtN2I4M2RjOTgxZDg5NjM3MzkyOTI5NDg5NTUxODUw',
+        autopop: false
       }
     },
   ],
