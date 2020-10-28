@@ -117,7 +117,7 @@
   }
 }
 
-/*@keyframes blink {
+@keyframes blink {
   $steps: 20;
 
   @for $i from 0 through $steps {
@@ -129,4 +129,4 @@
       }
     }
   }
-}*/
+}
